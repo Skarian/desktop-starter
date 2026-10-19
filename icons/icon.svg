@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- App icon. A progress ring: replace it with your app's own artwork, then
+       regenerate icon.ico and icon.icns (see README). -->
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b1d22"/>
+      <stop offset="1" stop-color="#0f1013"/>
+    </linearGradient>
+  </defs>
+  <rect x="68" y="68" width="888" height="888" rx="200" fill="url(#body)" stroke="#32363d" stroke-width="8"/>
+  <g fill="none" stroke-linecap="round">
+    <circle cx="512" cy="512" r="250" stroke="#32363d" stroke-width="72"/>
+    <path d="M 512 262 A 250 250 0 1 1 262 512" stroke="#8fb8de" stroke-width="72"/>
+  </g>
+  <circle cx="512" cy="512" r="64" fill="#d6d8dc"/>
+</svg>
