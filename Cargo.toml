@@ -1,0 +1,28 @@
+[package]
+# The package name. The executable and the package files use this name.
+name = "desktop-starter"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.92"
+# The app name that users see.
+description = "Desktop Starter"
+license = "MIT"
+publish = false
+
+# The macOS bundle ID and the Windows installer AppId. Upgrades use this value
+# to find existing installs. Do not change it after the first release.
+[package.metadata.app]
+identifier = "com.example.desktop-starter"
+
+[dependencies]
+gpui-kit = "=0.7.3"
+
+[build-dependencies]
+winresource = "0.1"
+
+[profile.dev]
+debug = 0
+
+[profile.release]
+strip = true
+lto = "thin"
